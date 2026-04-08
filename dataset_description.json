@@ -1,0 +1,23 @@
+{
+  "Name": "fNIRS Finger Tapping",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Robert Luke",
+    "Eric Larson",
+    "Alexandre Gramfort",
+    "Macquarie University"
+  ],
+  "License": "CC0",
+  "GeneratedBy": [
+    {
+      "Name": "MNE-NIRS",
+      "Description": "Original BIDS-NIRS dataset by Rob Luke"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://github.com/rob-luke/BIDS-NIRS-Tapping"
+    }
+  ]
+}

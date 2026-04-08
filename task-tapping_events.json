@@ -1,0 +1,8 @@
+{
+  "sample": {
+    "Description": "Onset sample index"
+  },
+  "value": {
+    "Description": "Event value/code"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "TaskName": "tapping",
+  "TaskDescription": "Finger tapping task with lateralized auditory cues. Three conditions (30 trials each, random order): left-ear cue prompting left-hand tapping, right-ear cue prompting right-hand tapping, and silent control. Each tapping period lasts 5 seconds. Inter-stimulus intervals of 20-35 seconds.",
+  "Instructions": "When you hear a sound in your left ear, tap your left thumb to each finger on the left hand for the duration of the sound. When you hear a sound in your right ear, tap your right thumb to each finger on the right hand for the duration of the sound.",
+  "ManufacturersModelName": "NIRScout",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "HardwareFilters": "n/a",
+  "SubjectArtefactDescription": "n/a",
+  "InstitutionName": "Macquarie University",
+  "InstitutionAddress": "Sydney, NSW, Australia",
+  "InstitutionalDepartmentName": "Department of Linguistics",
+  "CapManufacturer": "n/a",
+  "CapManufacturersModelName": "n/a",
+  "SourceType": "LED",
+  "DetectorType": "SiPD",
+  "NIRSPlacementScheme": "Motor cortex montage with 8 sources, 8 long-separation detectors, and 8 short-separation detectors (D9-D16, ~7-8mm separation)",
+  "StimulusPresentation": {
+    "SoftwareName": "Presentation",
+    "ScreenDistance": "n/a",
+    "ScreenRefreshRate": "n/a",
+    "ScreenResolution": "n/a",
+    "AdditionalHardware": "ER2 insert headphones, Fireface UCX audio interface"
+  }
+}
