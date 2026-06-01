@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000175-blue)](https://doi.org/10.82901/nemar.nm000175)
+
 # BIDS fNIRS Example Dataset
 
 [![DOI](https://zenodo.org/badge/294376526.svg)](https://zenodo.org/badge/latestdoi/294376526)
