@@ -1,44 +1,17 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "fNIRS Finger Tapping",
+  "description": "An example functional near-infrared spectroscopy (fNIRS) dataset formatted according to the Brain Imaging Data Structure (BIDS) specification. The dataset contains motor cortex hemodynamic responses from 5 participants during a finger tapping task, with measurements acquired using a NIRx device. This dataset serves as a reference implementation for fNIRS-BIDS conversion and demonstrates proper data organization and metadata documentation for functional neuroimaging studies.",
+  "methods_description": "Participants performed a finger tapping task consisting of left thumb-to-finger tapping, right thumb-to-finger tapping, or control conditions, each lasting 5 seconds and cued by an auditory stimulus. fNIRS sensors were positioned over the motor cortex with short channels attached to the scalp. Data were acquired using a NIRx device and converted to BIDS format using MNE-BIDS.",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Robert Luke": {},
     "Eric Larson": {},
     "Alexandre Gramfort": {},
     "Macquarie University": {}
   },
-  "title": "fNIRS Finger Tapping",
-  "license": "CC0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "nirs"
-  ],
-  "resource_type_specific": "fNIRS Dataset",
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000175",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000175",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "sizes": [
-    "49.7 MB (6 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".snirf",
-    ".tsv",
-    ".yml"
-  ],
-  "description": "This fNIRS dataset demonstrates BIDS-compliant formatting for functional near-infrared spectroscopy neuroimaging data. It contains measurements from 5 participants performing a motor task involving finger tapping of the left or right hand, with control conditions, while hemodynamic responses were recorded from sensors positioned over the motor cortex. The dataset serves as a reference implementation for the fNIRS BIDS specification and includes short-channel measurements for physiological noise correction.",
-  "methods_description": "Participants performed finger tapping tasks (left thumb to fingers, right thumb to fingers, or control) lasting 5 seconds each, cued by auditory stimuli. fNIRS sensors were positioned over the motor cortex with short channels attached to the scalp. Data were acquired using a NIRx device and converted to BIDS format using MNE-BIDS.",
   "keywords": [
     {
       "term": "fNIRS"
@@ -50,14 +23,55 @@
       "term": "finger tapping"
     },
     {
-      "term": "motor imagery"
-    },
-    {
       "term": "hemodynamics"
     },
     {
+      "term": "BIDS"
+    },
+    {
       "term": "neuroimaging"
+    },
+    {
+      "term": "hemoglobin"
+    },
+    {
+      "term": "oxygenation"
+    },
+    {
+      "term": "NIRx"
     }
   ],
-  "source_hash": "864767f4750282b8a7a94b326d6fb07855dafca93e3a5d417cefd72e58010757"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000175",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000175",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.nm000175",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "sizes": [
+    "49.7 MB (6 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "462e536ba1aca12b2d9cac88785fd7b88fcc6fdca877b300c3b81d0873308564"
 }
